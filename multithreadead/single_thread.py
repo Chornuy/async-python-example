@@ -1,6 +1,6 @@
 import time
 
-COUNT = 50000
+COUNT = 50000000
 
 
 def countdown(n):
@@ -16,6 +16,3 @@ if __name__ == "__main__":
     total_time = time.time() - start_time
 
     print(f"TIME OF EXECUTION IS {total_time} SEC")
-
-    "0.005181789398193359"
-    "0.004877328872680664"

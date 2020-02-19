@@ -1,7 +1,7 @@
 import time
 from threading import Thread
 
-COUNT = 50000
+COUNT = 50000000
 
 
 def countdown(n):
@@ -23,4 +23,4 @@ if __name__ == '__main__':
 
     total_time = time.time() - start_time
 
-    print(f"TIME OF EXECUTION IS {total_time} SEC")
+    print("TIME OF EXECUTION IS " + str(total_time) + " SEC")

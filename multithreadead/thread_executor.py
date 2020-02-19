@@ -1,7 +1,7 @@
 from concurrent.futures.thread import ThreadPoolExecutor
 import time
 
-COUNTDOWN = 50000
+COUNTDOWN = 50000000
 
 
 def countdown(n):
